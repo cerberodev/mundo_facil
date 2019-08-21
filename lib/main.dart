@@ -24,12 +24,7 @@ class _MyAppState extends State<MyApp> {
     return new SplashScreen(
         seconds: 5,
         navigateAfterSeconds: new AfterSplash(),
-        title: 
-        new Text('DESIGNS By: cerbero.dev',
-          style: new TextStyle(
-              fontWeight: FontWeight.bold,
-              fontSize: 20.0
-          ),),
+        
         
         image: new Image.asset('assets/mundo-facil.png'),
 
