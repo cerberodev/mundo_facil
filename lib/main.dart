@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 
 import 'package:splashscreen/splashscreen.dart';
 
+import 'home_page.dart';
+
 
 
 void main() => runApp(
@@ -23,7 +25,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return new SplashScreen(
         seconds: 5,
-        navigateAfterSeconds: new AfterSplash(),
+        navigateAfterSeconds: new GoogleMapPage(),
         
         
         image: new Image.asset('assets/mundo-facil.png'),
