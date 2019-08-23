@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mundo_facil/helper/ui_helper.dart';
+import 'package:MundoFacil/helper/ui_helper.dart';
 
 class SearchMenuWidget extends StatelessWidget {
   final double currentSearchPercent;
